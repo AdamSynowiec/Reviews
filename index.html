@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="app">
+            <div class="app-header">
+                <h2 class="app-heading">
+                    Reviews
+                </h2>
+                <div class="app-search-area">
+                    <img src="images/icons/search.svg" alt="">
+                    <input type="text" placeholder="Search reviews">
+                </div>
+                <div class="app-category-buttons">
+                    <button class="category">Experience</button>
+                    <button class="category">Quality</button>
+                    <button class="category active">Design</button>
+                    <button class="category">Size</button>
+                    <button class="category">Features</button>
+                    <button class="category">Value</button>
+                    <button class="category">Replacement</button>
+                </div>
+            </div>
+            <div class="app-content">
+                <div class="card-container">
+
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="user-acc">
+                                <img src="images/icons/avatar01.svg" alt="">
+                                Jesse Hopkins
+                            </span>
+                            <div class="star-container">
+                                <img src="images/icons/stars.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <span>Gorgeous design! Even more responsive than the previous version. A pleasure to use!</span>
+                        </div>
+                        <div class="card-footer">
+                            <date class="date-time">
+                                Feb 13, 2021
+                            </date>
+                            <button class="btn-share">
+                                <img src="images/icons/share-icon.svg" alt="">
+                                Share
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="user-acc">
+                                <img src="images/icons/avatar02.svg" alt="">
+                                Alice Banks
+                            </span>
+                            <div class="star-container">
+                                <img src="images/icons/stars.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <span>The device has a clean design, and the metal housing feels sturdy in my hands. Soft rounded corners make it a pleasure to look at. </span>
+                        </div>
+                        <div class="card-footer">
+                            <date class="date-time">
+                                Feb 13, 2021
+                            </date>
+                            <button class="btn-share">
+                                <img src="images/icons/share-icon.svg" alt="">
+                                Share
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="user-acc">
+                                <img src="images/icons/avatar01.svg" alt="">
+                                Jesse Hopkins
+                            </span>
+                            <div class="star-container">
+                                <img src="images/icons/stars.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <span>Gorgeous design! Even more responsive than the previous version. A pleasure to use!</span>
+                        </div>
+                        <div class="card-footer">
+                            <date class="date-time">
+                                Feb 13, 2021
+                            </date>
+                            <button class="btn-share">
+                                <img src="images/icons/share-icon.svg" alt="">
+                                Share
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="user-acc">
+                                <img src="images/icons/avatar02.svg" alt="">
+                                Alice Banks
+                            </span>
+                            <div class="star-container">
+                                <img src="images/icons/stars.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <span>The device has a clean design, and the metal housing feels sturdy in my hands. Soft rounded corners make it a pleasure to look at. </span>
+                        </div>
+                        <div class="card-footer">
+                            <date class="date-time">
+                                Feb 13, 2021
+                            </date>
+                            <button class="btn-share">
+                                <img src="images/icons/share-icon.svg" alt="">
+                                Share
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/jquery.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $('.category').click(function(){
+                $(this).toggleClass('active');
+            });
+            
+        });
+
+    </script>
+
+</body>
+</html>
